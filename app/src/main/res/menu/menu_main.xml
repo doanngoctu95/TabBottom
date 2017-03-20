@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.webheavens.manishkprmaterialtabs.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:title="settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action2"
+        android:title="Private policy"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action3"
+        android:title="Help, feedback"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action4"
+        android:title="Sign out"
+        app:showAsAction="never" />
+    <item  android:id="@+id/itemSearch"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="Search"/>
+</menu>
